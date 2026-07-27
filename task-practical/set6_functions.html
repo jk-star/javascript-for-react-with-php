@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practice Set 6 – Functions</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+
+    <div class="d-flex">
+
+        <!-- Sidebar -->
+
+        <div class="sidebar p-3">
+
+            <h3 class="mb-4">Dashboard</h3>
+
+            <a href="task-dashboard.html"><i class="bi bi-speedometer2 me-2"></i>Dashboard</a>
+
+            <a href="set1_variables.html"><i class="bi bi-list-stars me-2"></i>Set 1 Variables</a>
+
+            <a href="set2_data-types.html"><i class="bi bi-list-stars me-2"></i>Set 2 Data Types</a>
+
+            <a href="set3_template-literals.html"><i class="bi bi-list-stars me-2"></i>Set 3 Template Literals</a>
+
+            <a href="set4_conditionals.html"><i class="bi bi-list-stars me-2"></i>Set 4 Conditionals</a>
+
+            <a href="set5_loop.html"><i class="bi bi-list-stars me-2"></i>Set 5 Loop</a>
+
+            <a href="set6_functions.html"><i class="bi bi-list-stars me-2"></i>Set 6 Functions</a>
+
+        </div>
+
+        <!-- Main Content -->
+
+        <div class="main-content">
+
+            <!-- Navbar -->
+
+            <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+                <div class="container-fluid">
+
+                    <h4 class="fw-bold">Practice Set 6 – Functions</h4>
+
+                    <div class="ms-auto">
+
+                        <button class="btn btn-primary">
+                            <i class="bi bi-bell"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div class="container-fluid mt-4">
+
+                <!-- Cards -->
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="mb-3">GST calculator</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="gst-calculator mb-3 mt-3 card shadow-sm p-3"></div>
+
+                        <h3 class="mb-3">EMI calculator</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="emi-calculator mb-3 mt-3 card shadow-sm p-3"></div>
+
+                        <h3 class="mb-3">BMI calculator</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="bmi-calculator mb-3 mt-3 card shadow-sm p-3"></div>
+
+                        <h3 class="mb-3">Electricity bill</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="electricity-bill mb-3 mt-3 card shadow-sm p-3"></div>
+
+                        <h3 class="mb-3">Discount Calculator</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="discount-calculator mb-3 mt-3 card shadow-sm p-3"></div>
+                    </div>
+                </div>
+
+                <!-- script -->
+
+                <script>
+                    //GST calculator
+                    let GSTCalculator = (productPrice, GSTPercentage) => {
+                        let GSTAmount = (productPrice * GSTPercentage) / 100;
+                        let finalPrice = productPrice + GSTAmount;
+                        return `<p>
+                            Product Price = ${productPrice} <br/>
+                            GST Amount = ${GSTAmount} <br/>
+                            Final Price = ${finalPrice}
+                            </p>`;
+                    }
+
+                    //EMI calculator
+                    let productPriceWithGST = (GSTCalculator(2000, 18));
+                    document.querySelector('.gst-calculator').innerHTML = productPriceWithGST;
+
+                    let emiCalculator = (loanAmount, interestRate, loanDuration) => {
+                        let years = loanDuration / 12;
+                        let totalInterest = (loanAmount * interestRate * years) / 100;
+                        let totalPayable = loanAmount + totalInterest;
+                        let monthlyEmi = totalPayable / loanDuration;
+                        let roundedEMI = Number(monthlyEmi.toFixed(2));
+                        return `<p>EMI = ${roundedEMI} <br/> Total Payable Amount = ${totalPayable} </p>`;
+                    }
+
+                    let emiChart = emiCalculator(100000, 10, 24);
+                    document.querySelector('.emi-calculator').innerHTML = emiChart;
+
+                    //BMI Calculator
+                    let bmiCalculator = (weight, height) => {
+                        let heightInMeter = height * 0.3048;
+                        let bmi = (weight / (heightInMeter * heightInMeter)).toFixed(2);
+                        let category = "";
+                        if (bmi < 18.5) {
+                            category = "Underweight";
+                        } else if (bmi >= 18.5 && bmi <= 24.9) {
+                            category = "Normal Weight";
+                        } else if (bmi >= 25 && bmi <= 29.9) {
+                            category = "Overweight";
+                        } else {
+                            category = "Obese";
+                        }
+
+                        return `<p>
+                                    BMI = ${bmi}<br>
+                                    Category = ${category}
+                                </p>`;
+                    }
+
+                    document.querySelector('.bmi-calculator').innerHTML = bmiCalculator(66, 5)
+
+                    //Electricity Bill Calculator
+                    let electricityBillCalculator = (totalUnits, unitPrice, extraCharges = 0) => {
+                        let electricityBill = (totalUnits * unitPrice) + extraCharges;
+                        return electricityBill;
+                    }
+
+                    document.querySelector('.electricity-bill').innerHTML = electricityBillCalculator(100, 10, 5);
+
+                    // Discount Calculator
+                    let discountCalculator = (originalPrice, discountPercentage) => {
+                        let discountAmount = originalPrice * discountPercentage / 100;
+                        let finalPrice = originalPrice + discountAmount;
+                        return `<p>
+                            Original Price = ${originalPrice} <br/>
+                            Discount Amount = ${discountAmount} <br/>
+                            Final Price = ${finalPrice}
+                             </p>`;
+                    }
+                    document.querySelector('.discount-calculator').innerHTML = discountCalculator(200, 10);
+                </script>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

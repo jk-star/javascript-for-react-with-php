@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Practice Set 5 – Loop</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
-    <link rel="stylesheet" href="common.css">
-</head>
+<?php include 'header.php'; ?>
 
 <body>
 
@@ -25,25 +6,7 @@
 
         <!-- Sidebar -->
 
-        <div class="sidebar p-3">
-
-            <h3 class="mb-4">Dashboard</h3>
-
-           <a href="task-dashboard.html"><i class="bi bi-speedometer2 me-2"></i>Dashboard</a>
-
-            <a href="set1_variables.html"><i class="bi bi-list-stars me-2"></i>Set 1 Variables</a>
-
-            <a href="set2_data-types.html"><i class="bi bi-list-stars me-2"></i>Set 2 Data Types</a>
-
-            <a href="set3_template-literals.html"><i class="bi bi-list-stars me-2"></i>Set 3 Template Literals</a>
-
-            <a href="set4_conditionals.html"><i class="bi bi-list-stars me-2"></i>Set 4 Conditionals</a>
-
-            <a href="set5_loop.html"><i class="bi bi-list-stars me-2"></i>Set 5 Loop</a>
-
-            <a href="set6_functions.html"><i class="bi bi-list-stars me-2"></i>Set 6 Functions</a>
-
-        </div>
+        <?php include 'sidebar.php'; ?>
 
         <!-- Main Content -->
 
@@ -233,10 +196,18 @@
 
                     //E-commerce Cart Array [ { name:"Laptop", price:50000 }, { name:"Mouse", price:1000 }, { name:"Keyboard", price:2000 } ] Print Laptop - ₹50000 Mouse - ₹1000 Keyboard - ₹2000 Total = ₹53000
                     const carts_div = document.querySelector('.carts');
-                    let carts = [
-                        { name: "Laptop", price: 50000 },
-                        { name: "Mouse", price: 1000 },
-                        { name: "Keyboard", price: 2000 }
+                    let carts = [{
+                            name: "Laptop",
+                            price: 50000
+                        },
+                        {
+                            name: "Mouse",
+                            price: 1000
+                        },
+                        {
+                            name: "Keyboard",
+                            price: 2000
+                        }
                     ];
                     let displayCart = "";
                     let totalProductPrice = 0;
@@ -252,10 +223,18 @@
                     //User List [ { name:"Rahul", age:22 }, { name:"Priya", age:25 }, { name:"Aman", age:20 } ]
                     // Output Rahul is 22 years old Priya is 25 years old Aman is 20 years old
                     const userListDiv = document.querySelector('.user_list');
-                    let userList = [
-                        { name: "Rahul", age: 22 },
-                        { name: "Priya", age: 25 },
-                        { name: "Aman", age: 20 }
+                    let userList = [{
+                            name: "Rahul",
+                            age: 22
+                        },
+                        {
+                            name: "Priya",
+                            age: 25
+                        },
+                        {
+                            name: "Aman",
+                            age: 20
+                        }
                     ];
                     let userListDisplay = "";
                     for (let users of userList) {
@@ -267,24 +246,35 @@
 
                     //Order Status [ "Pending", "Delivered", "Cancelled", "Pending" ] Count करो Pending = ? Delivered = ? Cancelled = ?
                     const orderStatusDiv = document.querySelector('.order_status');
-                    let orderStatus = [ "Pending", "Delivered", "Cancelled", "Pending" ];
+                    let orderStatus = ["Pending", "Delivered", "Cancelled", "Pending"];
                     let pendingCount = 0;
                     let deliveredCount = 0;
                     let cancelledCount = 0;
 
                     orderStatus.forEach(function(orders) {
                         //console.log(orders);
-                        if(orders === 'Pending'){
+                        if (orders === 'Pending') {
                             pendingCount++;
-                        }else if(orders === 'Delivered'){
+                        } else if (orders === 'Delivered') {
                             deliveredCount++;
-                        }else if(orders === 'Cancelled'){
+                        } else if (orders === 'Cancelled') {
                             cancelledCount++;
                         }
                     });
 
                     orderStatusDiv.innerHTML = `Pending = ${pendingCount} Delivered = ${deliveredCount} Cancelled = ${cancelledCount}`;
                 </script>
+
+                <!-- Previous & Next Buttons -->
+                <div class="button-wrapper">
+                    <a href="set4_conditionals.php" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i> Previous
+                    </a>
+
+                    <a href="set6_functions.php" class="btn btn-primary">
+                        Next <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
 
             </div>
 

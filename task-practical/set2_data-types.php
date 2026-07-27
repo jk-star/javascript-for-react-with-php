@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Practice Set 2 – Data Types</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
-    <link rel="stylesheet" href="common.css">
-</head>
+<?php include 'header.php'; ?>
 
 <body>
 
@@ -25,25 +6,7 @@
 
         <!-- Sidebar -->
 
-        <div class="sidebar p-3">
-
-            <h3 class="mb-4">Dashboard</h3>
-
-            <a href="task-dashboard.html"><i class="bi bi-speedometer2 me-2"></i>Dashboard</a>
-
-            <a href="set1_variables.html"><i class="bi bi-list-stars me-2"></i>Set 1 Variables</a>
-
-            <a href="set2_data-types.html"><i class="bi bi-list-stars me-2"></i>Set 2 Data Types</a>
-
-            <a href="set3_template-literals.html"><i class="bi bi-list-stars me-2"></i>Set 3 Template Literals</a>
-
-            <a href="set4_conditionals.html"><i class="bi bi-list-stars me-2"></i>Set 4 Conditionals</a>
-
-            <a href="set5_loop.html"><i class="bi bi-list-stars me-2"></i>Set 5 Loop</a>
-
-            <a href="set6_functions.html"><i class="bi bi-list-stars me-2"></i>Set 6 Functions</a>
-
-        </div>
+        <?php include 'sidebar.php'; ?>
 
         <!-- Main Content -->
 
@@ -141,16 +104,15 @@
                     let isUserlogged = false;
                     let loginStatus = isUserlogged ? "User logged in" : "Please login first";
                     document.querySelector('.login').innerText = loginStatus;
-
                 </script>
 
                 <!-- Previous & Next Buttons -->
                 <div class="button-wrapper">
-                    <a href="set1_variables.html" class="btn btn-outline-secondary">
+                    <a href="set1_variables.php" class="btn btn-outline-secondary">
                         <i class="bi bi-arrow-left"></i> Previous
                     </a>
 
-                    <a href="set3_template-literals.html" class="btn btn-primary">
+                    <a href="set3_template-literals.php" class="btn btn-primary">
                         Next <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>

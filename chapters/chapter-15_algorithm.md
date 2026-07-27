@@ -176,3 +176,32 @@
 1. If current theme = Light → Switch to Dark
 1. Else → Switch to Light
 1. End
+
+## 22. Product List Display (forEach)
+
+- Ek product list hai. Sabhi products ko webpage par display karna hai.
+1. Products ka array banao.
+1. Empty string ya empty container lo.
+1. Array ke har product par loop chalao.
+1. Har product ka
+    - Name
+    - Price
+    - Image
+    - collect karo.
+1. HTML string banao.
+1. String ko webpage me display karo.
+
+## 23. Search User (find)
+
+- ID ya Name ke according ek user search karna hai.
+1. Users ka array lo.
+1. Search value lo.
+1. Array me ek-ek user check karo.
+1. Agar user ka naam ya ID match kare
+    YES →
+        User return karo.
+    NO →
+        Next user check karo.
+
+1. Agar koi user nahi mila
+- Show "No User Found"

@@ -73,5 +73,57 @@ const chapters = [
         id: 15,
         title: "Algorithm",
         file: "chapter-15_algorithm.md"
+    },
+    {
+        id: 16,
+        title: "Logic Building Level1",
+        file: "chapter-16_logic-building-level1.md"
+    },
+    {
+        id: 17,
+        title: "Logic Building Level2",
+        file: "chapter-17_logic-building-level2.md"
+    },
+    {
+        id: 18,
+        title: "Logic Building Level3",
+        file: "chapter-18_logic-building-level3.md"
+    },
+    {
+        id: 19,
+        title: "Logic Building Level4",
+        file: "chapter-19_logic-building-level4.md"
+    },
+    {
+        id: 20,
+        title: "Logic Building Level5",
+        file: "chapter-20_logic-building-level5.md"
+    },
+    {
+        id: 21,
+        title: "Logic Building Level6",
+        file: "chapter-21_logic-building-level6.md"
+    },
+    {
+        id: 22,
+        title: "Logic Building Level7",
+        file: "chapter-22_logic-building-level7.md"
+    },
+    {
+        id: 23,
+        title: "Logic Building Level8",
+        file: "chapter-23_logic-building-level8.md"
+    },
+    {
+        id: 24,
+        title: "Logic Building Level9",
+        file: "chapter-24_logic-building-level9.md"
+    },
+    {
+        id: 25,
+        title: "Logic Building Level10",
+        file: "chapter-25_logic-building-level10.md"
     }
+
+    
 ];

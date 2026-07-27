@@ -15,24 +15,27 @@ const user = {
 
 ## Data Access Karna
 
-**1. Dot Notation**
+## 1. Dot Notation
 <code><pre>
 console.log(user.name);
 </pre></code>
 
-**2. Bracket Notation**
+## 2. Bracket Notation
 <code><pre>
 console.log(user["city"]);
 </pre></code>
-**Object Update**
+
+## Object Update
 <code><pre>
 user.city = "Delhi";
 console.log(user);
 </pre></code>
-**New Property Add Karna**
+
+## New Property Add Karna
 <code><pre>
 user.email = "jyoti@gmail.com";
 </pre></code>
+
 **Nested Object :** React APIs me bahut common.
 <code><pre>
 const employee = {
@@ -44,7 +47,8 @@ const employee = {
     }
 };
 </pre></code>
-**Part 2 – Object Destructuring**
+
+## Part 2 – Object Destructuring
 
 **With Destructuring**
 <code><pre>
@@ -74,7 +78,7 @@ function Welcome({ name }) {
 }
 </pre></code>
 
-**Variable Rename**
+## Variable Rename
 <code><pre>
 const user = {
     name: "Jyoti"
@@ -82,7 +86,8 @@ const user = {
 const { name: userName } = user;
 console.log(userName);
 </pre></code>
-**Default Value**
+
+## Default Value
 <code><pre>
 const user = {
     name: "Jyoti"
@@ -90,7 +95,8 @@ const user = {
 const { city = "Lucknow" } = user;
 console.log(city);
 </pre></code>
-**Part 3 – Array Destructuring**
+
+## Part 3 – Array Destructuring
 
 **React Example**
 <code><pre>
@@ -107,13 +113,13 @@ console.log(second);
 const [count, setCount] = useState(0);
 </pre></code>
 
-**Interview Questions**
+## Interview Questions
+
 **Q1. Object Destructuring ka fayda?**
 
 👉 Code chhota aur readable ho jata hai.
 
 **Q2. React me sabse zyada kahan use hota hai?**
-
 - Props
 - useState
 API Response

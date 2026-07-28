@@ -59,6 +59,17 @@
 
                 <script></script>
 
+                <!-- Previous & Next Buttons -->
+                <div class="button-wrapper">
+                    <a href="set6_functions.php" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i> Previous
+                    </a>
+
+                    <a href="set8_object.php" class="btn btn-primary">
+                        Next <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
             </div>
 
         </div>

@@ -205,3 +205,85 @@
 
 1. Agar koi user nahi mila
 - Show "No User Found"
+
+
+## 24. Active Users Filter (filter)
+
+- Sirf active users dikhane hain.
+
+1. Users array lo.
+1. Har user ko check karo.
+1. Agar user active hai -> Store karo, Nahi hai -> Ignore karo.
+1. Naya array return karo.
+1. Display karo.
+
+## 25. Completed Tasks (filter)
+- Completed tasks hi show karni hain.
+
+1. Tasks array lo.
+1. Har task check karo.
+
+1. Completed ?
+
+Yes
+
+Store
+
+No
+
+Skip
+
+1. Completed tasks return karo.
+1. Display karo.
+
+## 26. Shopping Cart (map)
+- Products ke naam aur price ko formatted list me convert karna hai.
+
+1. Cart array lo.
+1. Har product uthao.
+1. Naya object ya string banao.
+
+**Example**
+
+- Product Name
+- Price
+- Quantity
+
+1. Sabhi transformed values ko new array me store karo.
+1. Display karo.
+
+## 27. Check Any Out of Stock Product (some)
+- Check karna hai ki koi bhi product out of stock hai ya nahi.
+1. Products array lo.
+1. Har product check karo.
+1. Out Of Stock ?
+
+Yes
+
+Immediately True Return
+
+No
+
+Next Product
+
+1. Agar sab check ho gaye
+
+Return False
+
+## 28. Check All Students Passed (every)
+- Check karna hai ki sab students pass hue hain ya nahi.
+1. Students array lo.
+1. Har student check karo.
+1. Pass ?
+
+Yes
+
+Next Student
+
+No
+
+Immediately False
+
+1. Agar sab pass
+
+Return True

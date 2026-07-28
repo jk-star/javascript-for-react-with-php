@@ -16,4 +16,6 @@
 
     <a href="set6_functions.php"><i class="bi bi-list-stars me-2"></i>Set 6 Functions</a>
 
+    <a href="set7_array.php"><i class="bi bi-list-stars me-2"></i>Set 7 Arrays</a>
+
 </div>

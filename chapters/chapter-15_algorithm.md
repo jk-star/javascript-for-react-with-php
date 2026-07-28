@@ -1,4 +1,4 @@
-# Practice Set 1 – Variables (let, const, var)
+## Practice Set 1 – Variables (let, const, var)
 
 ## 1. Student Information Store Karna
 1. Start
@@ -31,7 +31,7 @@
 1. Discount Amount और Final Price display करें
 1. End
 
-# Practice Set 2 – Data Types
+## Practice Set 2 – Data Types
 
 ## 5. User Profile Banao
 1. Start
@@ -61,7 +61,7 @@
 1. अन्यथा "User Logged Out" display करें
 1. End
 
-# Practice Set 3 – Template Literals
+## Practice Set 3 – Template Literals
 
 ## 9. Invoice Print Karo
 1. Start
@@ -142,7 +142,7 @@
 1. Original Price, Discount Amount और Final Price Display करें
 1. End
 
-# Practice Set 4 – Conditionals
+## Practice Set 4 – Conditionals
 
 ## 17. Voting Eligibility
 1. Start
@@ -184,7 +184,7 @@
 1. Else → Switch to Light
 1. End
 
-# Practice Set 7 – Arrays
+## Practice Set 7 – Arrays
 
 ## 22. Product List Display (forEach)
 
@@ -297,7 +297,7 @@ Immediately False
 
 Return True
 
-# Practice Set 8 – Objects
+## Practice Set 8 – Objects
 
 ## 29. Employee Database
 1. Start
@@ -378,3 +378,58 @@ Return True
 1. Stock property delete karo.
 1. Updated object display karo.
 1. End
+
+## Practice Set 9 – Destructuring
+
+## 38. Object Destructuring
+1. Start
+1. User object banao.
+1. Object me Name, Age, City aur Email store karo.
+1. Object Destructuring ka use karke values alag variables me store karo.
+1. Variables display karo.
+1. End.
+
+## 39. Array Destructuring
+1. Start
+1. Students ka array banao.
+1. Array me multiple names store karo.
+1. Array Destructuring ka use karke first, second aur third value alag 
+1. variables me store karo.
+1. Variables display karo.
+1. End.
+
+## 40. Default Values
+1. Start
+1. Employee object banao.
+1. Kuch properties store karo.
+1. Ek missing property ke liye default value set karo.
+1. Values display karo.
+1. End.
+
+## 41. Rename Variables
+1. Start
+1. Product object banao.
+1. Object Destructuring karo.
+1. Property names ko naye variable names me rename karo.
+1. Renamed variables display karo.
+1. End.
+
+## 42. API Response Destructuring
+
+1. Start
+1. API response object banao.
+1. Response me Status, Message aur Data store karo.
+1. Data object ke andar User ki details store karo.
+1. Destructuring ka use karke required values nikalo.
+1. Values display karo.
+1. End.
+
+## 43. User Profile
+1. Start
+1. User Profile object banao.
+1. Name, Email, Mobile aur Address store karo.
+1. Address ko nested object banao.
+1. Destructuring ka use karke Name, Email aur City nikalo.
+1. Values display karo.
+1. End.
+

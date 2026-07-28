@@ -65,9 +65,6 @@
                         <b class="text-success text-capitalize">output</b>
                         <div class="property_delete mb-3 mt-3 card shadow-sm p-3"></div>
                         
-                        <h3 class="mb-3"></h3>
-                        <b class="text-success text-capitalize">output</b>
-                        <div class="mb-3 mt-3 card shadow-sm p-3"></div>
                     </div>
                 </div>
 
@@ -207,11 +204,11 @@
 
                 <!-- Previous & Next Buttons -->
                 <div class="button-wrapper">
-                    <a href="set6_functions.php" class="btn btn-outline-secondary">
+                    <a href="set7_array.php" class="btn btn-outline-secondary">
                         <i class="bi bi-arrow-left"></i> Previous
                     </a>
 
-                    <a href="set8_object.php" class="btn btn-primary">
+                    <a href="set9_destructuring.php" class="btn btn-primary">
                         Next <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>

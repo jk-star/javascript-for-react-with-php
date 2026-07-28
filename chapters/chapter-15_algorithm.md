@@ -1,3 +1,5 @@
+# Practice Set 1 – Variables (let, const, var)
+
 ## 1. Student Information Store Karna
 1. Start
 1. Student की information लें (Name, Age, Class, Roll Number)
@@ -29,6 +31,8 @@
 1. Discount Amount और Final Price display करें
 1. End
 
+# Practice Set 2 – Data Types
+
 ## 5. User Profile Banao
 1. Start
 1. User की details लें (Name, Age, Email, City)
@@ -56,6 +60,8 @@
 1. यदि value True है, तो "User Logged In" display करें
 1. अन्यथा "User Logged Out" display करें
 1. End
+
+# Practice Set 3 – Template Literals
 
 ## 9. Invoice Print Karo
 1. Start
@@ -136,6 +142,7 @@
 1. Original Price, Discount Amount और Final Price Display करें
 1. End
 
+# Practice Set 4 – Conditionals
 
 ## 17. Voting Eligibility
 1. Start
@@ -176,6 +183,8 @@
 1. If current theme = Light → Switch to Dark
 1. Else → Switch to Light
 1. End
+
+# Practice Set 7 – Arrays
 
 ## 22. Product List Display (forEach)
 
@@ -287,3 +296,85 @@ Immediately False
 1. Agar sab pass
 
 Return True
+
+# Practice Set 8 – Objects
+
+## 29. Employee Database
+1. Start
+1. Employee object banao.
+1. Employee ki details store karo:
+    - ID
+    - Name
+    - Department
+    - Salary
+    - Email
+1. Object ki values display karo.
+1. End
+
+## 30. Student Report Card
+1. Start
+1. Student object banao.
+1. Student ki details store karo:
+    - Name
+    - Roll Number
+    - Class
+1. Marks ka ek nested object banao:
+    - English
+    - Math
+    - Science
+1. Total marks calculate karo.
+1. Percentage calculate karo.
+1. Grade decide karo.
+1. Report Card display karo.
+1. End
+
+## 31. Product Details
+1. Start
+1. Product object banao.
+1. Product ki details store karo:
+    - ID
+    - Name
+    - Price
+    - Category
+    - Stock
+1. Product details display karo.
+1. End
+
+## 32. Customer Address (Nested Object)
+1. Start
+1. Customer object banao.
+1. Customer ki basic details store karo:
+    - Name
+    - Mobile
+    - Email
+1. Address ka nested object banao:
+    - House Number
+    - Street
+    - City
+    - State
+    - Pincode
+1. Customer aur Address display karo.
+1. End
+
+## 35. Object Property Update
+1. Start
+1. Employee object banao.
+1. Salary update karo.
+1. Department update karo.
+1. Updated object display karo.
+1. End
+
+## 36. New Property Add Karna
+1. Start
+1. Student object banao.
+1. Mobile Number add karo.
+1. Email add karo.
+1. Updated object display karo.
+1. End
+
+## 37. Property Delete Karna
+1. Start
+1. Product object banao.
+1. Stock property delete karo.
+1. Updated object display karo.
+1. End

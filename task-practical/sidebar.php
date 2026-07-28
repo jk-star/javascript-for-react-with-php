@@ -18,4 +18,6 @@
 
     <a href="set7_array.php"><i class="bi bi-list-stars me-2"></i>Set 7 Arrays</a>
 
+    <a href="set8_object.php"><i class="bi bi-list-stars me-2"></i>Set 8 Objects</a>
+
 </div>

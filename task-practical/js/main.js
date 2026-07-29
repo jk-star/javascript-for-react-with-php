@@ -1,5 +1,6 @@
 import { add, subtract } from './calculator.js';
 import { login, logout, checkUser } from './auth.js';
+import { capitalize, currencyFormat, dateFormat } from './utils.js';
 import user from "./user.js";
 
 document.querySelector('.calculator').innerHTML = `
@@ -14,3 +15,5 @@ Email = ${user.email} <br/>
 Active = ${user.isActive} <br/> `
 
 document.querySelector('.login').innerHTML = checkUser('jyoti');
+
+console.log(capitalize('jyoti singh'));

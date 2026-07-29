@@ -583,7 +583,7 @@ Return True
 
 ## Practice Set 13 – Nullish Coalescing (??)
 
-**1. Default Username**
+**62. Default Username**
 1. Start
 1. User object banao.
 1. User me username property store karo (ya usse missing rakho).
@@ -593,7 +593,7 @@ Return True
 
 ## Practice Set 14 – ES6 Modules
 
-**1. Calculator Module (Named Export)**
+**63. Calculator Module (Named Export)**
 
 1. Start
 1. calculator.js file banao.
@@ -603,7 +603,7 @@ Return True
 1. Functions call karke result display karo.
 1. End.
 
-**2. User Module (Default Export)**
+**64. User Module (Default Export)**
 
 1. Start
 1. user.js file banao.
@@ -613,7 +613,7 @@ Return True
 1. User details display karo.
 1. End.
 
-**3. Authentication Module (Named Export)**
+**65. Authentication Module (Named Export)**
 
 1. Start
 1. auth.js file banao.
@@ -626,7 +626,7 @@ Return True
 1. Result display karo.
 1. End.
 
-**4. Utility Functions (Named Export)**
+**66. Utility Functions (Named Export)**
 1. Start
 1. utils.js file banao.
 1. Capitalize function banao.
@@ -637,42 +637,41 @@ Return True
 1. Functions call karke output display karo.
 1. End.
 
-5. Alias Import
-Algorithm
-Start
-math.js file banao.
-Add aur Multiply functions export karo.
-main.js me Import karte waqt Alias (as) use karo.
-Alias function call karo.
-Result display karo.
-End.
-6. Product Module
-Algorithm
-Start
-products.js file banao.
-Products array banao.
-Products array ko Default Export karo.
-main.js me Import karo.
-Products display karo.
-End.
-7. Employee Module
-Algorithm
-Start
-employee.js file banao.
-Employee object banao.
-Employee object ko Default Export karo.
-main.js me Import karo.
-Employee details display karo.
-End.
-8. Shopping Cart Module
-Algorithm
-Start
-cart.js file banao.
-Add To Cart function banao.
-Remove From Cart function banao.
-Get Cart function banao.
-Functions ko Named Export karo.
-main.js me Import karo.
-Functions call karo.
-Cart details display karo.
-End.
+**67. Alias Import**
+1. Start
+1. math.js file banao.
+1. Add aur Multiply functions export karo.
+1. main.js me Import karte waqt Alias (as) use karo.
+1. Alias function call karo.
+1. Result display karo.
+1. End.
+
+**68. Product Module**
+1. Start
+1. products.js file banao.
+1. Products array banao.
+1. Products array ko Default Export karo.
+1. main.js me Import karo.
+1. Products display karo.
+1. End.
+
+**69. Employee Module**
+1. Start
+1. employee.js file banao.
+1. Employee object banao.
+1. Employee object ko Default Export karo.
+1. main.js me Import karo.
+1. Employee details display karo.
+1. End.
+
+**70. Shopping Cart Module**
+1. Start
+1. cart.js file banao.
+1. Add To Cart function banao.
+1. Remove From Cart function banao.
+1. Get Cart function banao.
+1. Functions ko Named Export karo.
+1. main.js me Import karo.
+1. Functions call karo.
+1. Cart details display karo.
+1. End.

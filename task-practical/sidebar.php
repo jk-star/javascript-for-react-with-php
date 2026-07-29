@@ -23,5 +23,7 @@
     <a href="set9_destructuring.php"><i class="bi bi-list-stars me-2"></i>Set 9 Destructuring</a>
     
     <a href="set10_spread-operator.php"><i class="bi bi-list-stars me-2"></i>Set 10 Spread Operator</a>
+    
+    <a href="set11_rest-operator.php"><i class="bi bi-list-stars me-2"></i>Set 11 Rest Operator</a>
 
 </div>

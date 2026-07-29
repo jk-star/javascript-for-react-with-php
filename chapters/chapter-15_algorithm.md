@@ -1,7 +1,6 @@
 ## Practice Set 1 – Variables (let, const, var)
 
 **1. Student Information Store Karna**
-
 1. Start
 1. Student की information लें (Name, Age, Class, Roll Number)
 1. इन सभी values को एक variable में store करें
@@ -9,7 +8,6 @@
 1. End
 
 **2. Shopping Cart ka Total Amount Store Karna**
-
 1. Start
 1. सभी products की price लें
 1. सभी prices को जोड़ें
@@ -18,7 +16,6 @@
 1. End
 
 **3. User Login Status Store Karna**
-
 1. Start
 1. Check करें कि user login है या नहीं
 1. Login status को एक variable में store करें (True/False)
@@ -26,7 +23,6 @@
 1. End
 
 **4. Discount Percentage Calculate Karna**
-
 1. Start
 1. Original Price लें
 1. Discount Percentage लें
@@ -38,7 +34,6 @@
 ## Practice Set 2 – Data Types
 
 **5. User Profile Banao**
-
 1. Start
 1. User की details लें (Name, Age, Email, City)
 1. सभी details को एक object में store करें
@@ -46,7 +41,6 @@
 1. End
 
 **6. Product Details Object Me Store Karo**
-
 1. Start
 1. Product की details लें (Product Name, Price, Category, Stock)
 1. सभी details को एक object में store करें
@@ -54,7 +48,6 @@
 1. End
 
 **7. Cart Items Array Me Store Karo**
-
 1. Start
 1. Cart में add होने वाले items लें
 1. सभी items को एक array में store करें
@@ -62,7 +55,6 @@
 1. End
 
 **8. Boolean Se Login Status Check Karo**
-
 1. Start
 1. Login status को Boolean value (True/False) में store करें
 1. यदि value True है, तो "User Logged In" display करें
@@ -72,7 +64,6 @@
 ## Practice Set 3 – Template Literals
 
 **9. Invoice Print Karo**
-
 1. Start
 1. Customer Name लें
 1. Product Name लें
@@ -83,7 +74,6 @@
 1. End
 
 **10. Student Result Message Generate Karo**
-
 1. Start
 1. Student Name लें
 1. Student Marks लें
@@ -93,7 +83,6 @@
 1. End
 
 **11. Order Confirmation Message Banao**
-
 1. Start
 1. Customer Name लें
 1. Product Name लें
@@ -104,7 +93,6 @@
 1. End
 
 **12. GST Calculator**
-
 1. Start
 1. Product Price लें
 1. GST Percentage लें
@@ -114,7 +102,6 @@
 1. End
 
 **13. EMI Calculator**
-
 1. Start
 1. Loan Amount लें
 1. Interest Rate लें Formula for calculate Total Interest = (Loan Amount × Interest Rate × Time) / 100
@@ -126,7 +113,6 @@
 1. End
 
 **14. BMI Calculator**
-
 1. Start
 1. Weight (kg) लें
 1. Height (meters) लें
@@ -139,7 +125,6 @@
 1. End
 
 **15. Electricity Bill Calculator**
-
 1. Start
 1. Total Units Consumed लें
 1. प्रति Unit Price लें
@@ -149,7 +134,6 @@
 1. End
 
 **16. Discount Calculator**
-
 1. Start
 1. Original Price लें
 1. Discount Percentage लें
@@ -161,7 +145,6 @@
 ## Practice Set 4 – Conditionals
 
 **17. Voting Eligibility**
-
 1. Start
 1. Input age
 1. If age ≥ 18 → Eligible
@@ -169,7 +152,6 @@
 1. End
 
 **18. Login Validation**
-
 1. Start
 1. Input username & password
 1. Compare with stored username & password
@@ -178,7 +160,6 @@
 1. End
 
 **19. Salary Bonus**
-
 1. Start
 1. Input salary & years of service
 1. If years ≥ 5 → Bonus = 10% of salary
@@ -187,7 +168,6 @@
 1. End
 
 **20. Grade Calculator**
-
 1. Start
 1. Input marks
 1. If marks ≥ 90 → Grade A
@@ -197,7 +177,6 @@
 1. End
 
 **21 Theme Switch (Dark/Light)**
-
 1. Start
 1. Default theme = Light
 1. User clicks toggle button
@@ -208,7 +187,6 @@
 ## Practice Set 7 – Arrays
 
 **22. Product List Display (forEach)**
-
 - Ek product list hai. Sabhi products ko webpage par display karna hai.
 1. Products ka array banao.
 1. Empty string ya empty container lo.
@@ -222,7 +200,6 @@
 1. String ko webpage me display karo.
 
 **23. Search User (find)**
-
 - ID ya Name ke according ek user search karna hai.
 1. Users ka array lo.
 1. Search value lo.
@@ -238,7 +215,6 @@
 
 
 **24. Active Users Filter (filter)**
-
 - Sirf active users dikhane hain.
 1. Users array lo.
 1. Har user ko check karo.
@@ -247,7 +223,6 @@
 1. Display karo.
 
 **25. Completed Tasks (filter)**
-
 - Completed tasks hi show karni hain.
 1. Tasks array lo.
 1. Har task check karo.
@@ -266,7 +241,6 @@ Skip
 1. Display karo.
 
 **26. Shopping Cart (map)**
-
 - Products ke naam aur price ko formatted list me convert karna hai.
 1. Cart array lo.
 1. Har product uthao.
@@ -281,7 +255,6 @@ Skip
 1. Display karo.
 
 **27. Check Any Out of Stock Product (some)**
-
 - Check karna hai ki koi bhi product out of stock hai ya nahi.
 1. Products array lo.
 1. Har product check karo.
@@ -300,7 +273,6 @@ Next Product
 Return False
 
 **28. Check All Students Passed (every)**
-
 - Check karna hai ki sab students pass hue hain ya nahi.
 1. Students array lo.
 1. Har student check karo.
@@ -321,7 +293,6 @@ Return True
 ## Practice Set 8 – Objects
 
 **29. Employee Database**
-
 1. Start
 1. Employee object banao.
 1. Employee ki details store karo:
@@ -334,7 +305,6 @@ Return True
 1. End
 
 **30. Student Report Card**
-
 1. Start
 1. Student object banao.
 1. Student ki details store karo:
@@ -352,7 +322,6 @@ Return True
 1. End
 
 **31. Product Details**
-
 1. Start
 1. Product object banao.
 1. Product ki details store karo:
@@ -365,7 +334,6 @@ Return True
 1. End
 
 **32. Customer Address (Nested Object)**
-
 1. Start
 1. Customer object banao.
 1. Customer ki basic details store karo:
@@ -382,7 +350,6 @@ Return True
 1. End
 
 **35. Object Property Update**
-
 1. Start
 1. Employee object banao.
 1. Salary update karo.
@@ -391,7 +358,6 @@ Return True
 1. End
 
 **36. New Property Add Karna**
-
 1. Start
 1. Student object banao.
 1. Mobile Number add karo.
@@ -400,7 +366,6 @@ Return True
 1. End
 
 **37. Property Delete Karna**
-
 1. Start
 1. Product object banao.
 1. Stock property delete karo.
@@ -410,7 +375,6 @@ Return True
 ## Practice Set 9 – Destructuring
 
 **38. Object Destructuring**
-
 1. Start
 1. User object banao.
 1. Object me Name, Age, City aur Email store karo.
@@ -419,7 +383,6 @@ Return True
 1. End.
 
 **39. Array Destructuring**
-
 1. Start
 1. Students ka array banao.
 1. Array me multiple names store karo.
@@ -429,7 +392,6 @@ Return True
 1. End.
 
 **40. Default Values**
-
 1. Start
 1. Employee object banao.
 1. Kuch properties store karo.
@@ -438,7 +400,6 @@ Return True
 1. End.
 
 **41. Rename Variables**
-
 1. Start
 1. Product object banao.
 1. Object Destructuring karo.
@@ -447,7 +408,6 @@ Return True
 1. End.
 
 **42. API Response Destructuring**
-
 1. Start
 1. API response object banao.
 1. Response me Status, Message aur Data store karo.
@@ -457,7 +417,6 @@ Return True
 1. End.
 
 **43. User Profile**
-
 1. Start
 1. User Profile object banao.
 1. Name, Email, Mobile aur Address store karo.
@@ -469,7 +428,6 @@ Return True
 ## Practice Set 10 – Spread Operator
 
 **44. Array Copy**
-
 1. Start
 1. Students ka array banao.
 1. Spread Operator `(...)` ka use karke array ki copy banao.
@@ -477,7 +435,6 @@ Return True
 1. End.
 
 **45. Object Copy**
-
 1. Start
 1. Employee object banao.
 1. Spread Operator `(...)` ka use karke object ki copy banao.
@@ -485,7 +442,6 @@ Return True
 1. End.
 
 **46. Merge Arrays**
-
 1. Start
 1. Do alag arrays banao.
 1. Spread Operator `(...)` ka use karke dono arrays merge karo.
@@ -493,7 +449,6 @@ Return True
 1. End.
 
 **47. Merge Objects**
-
 1. Start
 1. Do objects banao.
 1. Spread Operator `(...)` ka use karke dono objects merge karo.
@@ -501,7 +456,6 @@ Return True
 1. End.
 
 **48. Shopping Cart Update**
-
 1. Start
 1. Shopping cart ka array banao.
 1. Ek naya product object banao.
@@ -510,7 +464,6 @@ Return True
 1. End.
 
 **49. User Profile Update**
-
 1. Start
 1. User Profile object banao.
 1. User ki updated details (City, Mobile, Email, etc.) ka naya object  banao.
@@ -519,10 +472,80 @@ Return True
 1. End.
 
 **50. Add New Product**
-
 1. Start
 1. Products ka array banao.
 1. Naya product object banao.
 1. Spread Operator `(...)` ka use karke product list me add karo.
 1. Updated products list display karo.
+1. End.
+
+## Practice Set 11 – Rest Operator
+
+**51. Total Marks Calculator (Rest Parameters)**
+1. Start
+1. Ek function banao.
+1. Function me Rest Parameter (...marks) lo.
+1. Sabhi marks ko loop se add karo.
+1. Total marks display karo.
+1. End.
+
+**52. Dynamic Price Calculator (Rest Parameters)**
+1. Start
+1. Ek function banao.
+1. Function me Rest Parameter (...prices) lo.
+1. Sabhi prices ka total calculate karo.
+1. Final amount display karo.
+1. End.
+
+**53. Remove Properties (Object Rest)**
+1. Start
+1. Employee object banao.
+1. Object Destructuring karo.
+1. Ek ya do properties alag nikalo.
+1. Baaki sab properties Object Rest (...remainingData) me store karo.
+1. Remaining object display karo.
+1. End.
+
+**54. Collect Remaining Data (Object Rest)**
+1. Start
+1. Customer object banao.
+1. Name aur Mobile ko destructure karo.
+1. Baaki sari properties Rest Operator me collect karo.
+1. Name, Mobile aur Remaining Data display karo.
+1. End.
+
+
+**55. Student Attendance (Rest Parameters)**
+1. Start
+1. Ek function banao.
+1. First parameter me Teacher Name lo.
+1. Rest Parameter (...students) me sabhi students lo.
+1. Teacher Name display karo.
+1. Students ki list display karo.
+1. End.
+
+**56. Employee Details (Object Rest)**
+1. Start
+1. Employee object banao.
+1. Name aur Department ko destructure karo.
+1. Baaki properties Rest Operator me collect karo.
+1. Name, Department aur Remaining Details display karo.
+1. End.
+
+**57. Online Order System (Rest Parameters)**
+1. Start
+1. Ek function banao.
+1. Customer Name first parameter me lo.
+1. Rest Parameter (...items) me order items lo.
+1. Customer Name display karo.
+1. Ordered Items display karo.
+1. End.
+
+**58. Exam Result System (Rest Parameters)**
+1. Start
+1. Ek function banao.
+1. Student Name first parameter me lo.
+1. Rest Parameter (...marks) me sabhi subject marks lo.
+1. Total aur Average calculate karo.
+1. Result display karo.
 1. End.

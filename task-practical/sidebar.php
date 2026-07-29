@@ -21,5 +21,7 @@
     <a href="set8_object.php"><i class="bi bi-list-stars me-2"></i>Set 8 Objects</a>
 
     <a href="set9_destructuring.php"><i class="bi bi-list-stars me-2"></i>Set 9 Destructuring</a>
+    
+    <a href="set10_spread-operator.php"><i class="bi bi-list-stars me-2"></i>Set 10 Spread Operator</a>
 
 </div>

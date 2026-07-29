@@ -14,6 +14,34 @@ console.log(...numbers);
 
 `10 20 30`
 
+## Spread Operator (...) ka use karke `array` ki copy banao.
+
+<code><pre>
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Copy Array
+let newFruits = [...fruits];
+
+console.log(fruits);
+console.log(newFruits);
+</pre></code>
+
+## Spread Operator (...) ka use karke `object` ki copy banao.
+<code><pre>
+let employee = {
+    id: 101,
+    name: "Amit Sharma",
+    department: "IT",
+    salary: 55000
+};
+
+// Object Copy
+let newEmployee = { ...employee };
+
+console.log(employee);
+console.log(newEmployee);
+</pre></code>
+
 ## Arrays Merge Karna
 
 **Example:**

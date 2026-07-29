@@ -549,3 +549,42 @@ Return True
 1. Total aur Average calculate karo.
 1. Result display karo.
 1. End.
+
+## Practice Set 12 – Optional Chaining (?.)
+
+**59. API Response**
+1. Start
+1. API response object banao.
+1. Response me status, message aur data store karo.
+1. data ke andar user details store karo.
+1. Optional Chaining (?.) ka use karke user ki details access karo.
+1. Values display karo.
+1. End.
+
+**60. User Profile**
+1. Start
+1. User Profile object banao.
+1. User ki basic details store karo.
+1. Address object optional rakho.
+1. Optional Chaining (?.) ka use karke City aur State access karo.
+1. Values display karo.
+1. End.
+
+**61. Nested Address**
+1. Start
+1. Customer object banao.
+1. Customer ke andar Address ka nested object banao.
+1. Address ke andar House Number, Street, City aur Pincode store karo.
+1. Optional Chaining (?.) ka use karke Address ki properties access karo.
+1. Values display karo.
+1. End.
+
+## Practice Set 13 – Nullish Coalescing (??)
+
+**1. Default Username**
+1. Start
+1. User object banao.
+1. User me username property store karo (ya usse missing rakho).
+1. Nullish Coalescing (??) ka use karke default username set karo.
+1. Username display karo.
+1. End.

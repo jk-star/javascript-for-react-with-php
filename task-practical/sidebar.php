@@ -26,4 +26,8 @@
     
     <a href="set11_rest-operator.php"><i class="bi bi-list-stars me-2"></i>Set 11 Rest Operator</a>
 
+    <a href="set12_optional-chaining.php"><i class="bi bi-list-stars me-2"></i>set12 Optional Chaining</a>
+
+    <a href="set13_nullish-coalescing.php"><i class="bi bi-list-stars me-2"></i>set13 Nullish Coalescing</a>
+
 </div>

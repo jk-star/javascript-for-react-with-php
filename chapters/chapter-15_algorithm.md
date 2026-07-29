@@ -666,3 +666,100 @@ Return True
 1. Functions call karo.
 1. Cart details display karo.
 1. End.
+
+## Practice Set 15 – Promises
+
+**1. File Download**
+1. Start
+1. Ek Promise banao.
+1. Download process start karo.
+1. Agar download successful ho to resolve() call karo.
+1. Agar download fail ho to reject() call karo.
+1. `.then()` me success message display karo.
+1. `.catch()` me error message display karo.
+1. `.finally()` me "Download Process Completed" display karo.
+1. End.
+
+**2. Login Request**
+1. Start
+1. Username aur Password lo.
+1. Ek Promise banao.
+1. Credentials check karo.
+1. Agar sahi ho to resolve() karo.
+1. Agar galat ho to reject() karo.
+1. `.then()` me Login Successful display karo.
+1. `.catch()` me Invalid Credentials display karo.
+1. `.finally()` me Login Request Completed display karo.
+1. End.
+
+**3. Payment Success**
+1. Start
+1. Payment Amount lo.
+1. Ek Promise banao.
+1. Payment process start karo.
+1. Agar payment successful ho to resolve() karo.
+1. Agar payment fail ho to reject() karo.
+1. `.then()` me Payment Successful display karo.
+1. `.catch()` me Payment Failed display karo.
+1. `.finally()` me Payment Process Completed display karo.
+1. End.
+
+**4. Food Delivery**
+1. Start
+1. Food Order lo.
+1. Ek Promise banao.
+1. Restaurant order prepare kare.
+1. Agar order deliver ho jaye to resolve() karo.
+1. Agar delivery cancel ho jaye to reject() karo.
+1. `.then()` me Food Delivered display karo.
+1. `.catch()` me Delivery Failed display karo.
+1. `.finally()` me Delivery Process Completed display karo.
+1. End.
+
+**5. Student Result**
+1. Start
+1. Student Marks lo.
+1. Ek Promise banao.
+1. Marks check karo.
+1. Agar Pass ho to resolve() karo.
+1. Agar Fail ho to reject() karo.
+1. `.then()` me Pass message display karo.
+1. `.catch()` me Fail message display karo.
+1. `.finally()` me Result Process Completed display karo.
+1. End.
+
+**6. OTP Verification**
+1. Start
+1. User ka OTP lo.
+1. Ek Promise banao.
+1. OTP verify karo.
+1. Agar OTP sahi ho to resolve() karo.
+1. Agar OTP galat ho to reject() karo.
+1. `.then()` me OTP Verified display karo.
+1. `.catch()` me Invalid OTP display karo.
+1. `.finally()` me Verification Completed display karo.
+1. End.
+
+**7. Email Sending**
+1. Start
+1. Email details lo.
+1. Ek Promise banao.
+1. Email send karne ki process start karo.
+1. Agar email successfully send ho to resolve() karo.
+1. Agar email send na ho to reject() karo.
+1. `.then()` me Email Sent Successfully display karo.
+1. `.catch()` me Email Sending Failed display karo.
+1. `.finally()` me Email Process Completed display karo.
+1. End.
+
+**8. Data Fetching**
+1. Start
+1. API Request bhejo.
+1. Ek Promise banao.
+1. Server se response ka wait karo.
+1. Agar response mil jaye to resolve() karo.
+1. Agar server error aaye to reject() karo.
+1. `.then()` me Data Display karo.
+1. `.catch()` me Error Message display karo.
+1. `.finally()` me Request Completed display karo.
+1. End.

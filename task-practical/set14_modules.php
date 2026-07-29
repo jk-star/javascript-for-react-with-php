@@ -45,21 +45,18 @@
                         <b class="text-success text-capitalize">output</b>
                         <div class="user mb-3 mt-3 card shadow-sm p-3"></div>
 
-                        <h3 class="mb-3"></h3>
+                        <h3 class="mb-3">Authentication Module ( Login, Logout, CheckUser)</h3>
                         <b class="text-success text-capitalize">output</b>
                         <div class="login mb-3 mt-3 card shadow-sm p-3"></div>
 
-                        <h3 class="mb-3"></h3>
+                        <h3 class="mb-3">Utility Functions ( Capitalize, Currency Format, Date Format )</h3>
                         <b class="text-success text-capitalize">output</b>
-                        <div class="mb-3 mt-3 card shadow-sm p-3"></div>
+                        <div class="utility-functions mb-3 mt-3 card shadow-sm p-3"></div>
 
-                        <h3 class="mb-3"></h3>
+                        <h3 class="mb-3">Product Module</h3>
                         <b class="text-success text-capitalize">output</b>
-                        <div class="mb-3 mt-3 card shadow-sm p-3"></div>
-                        
-                        <h3 class="mb-3"></h3>
-                        <b class="text-success text-capitalize">output</b>
-                        <div class="mb-3 mt-3 card shadow-sm p-3"></div>
+                        <div class="product_list mb-3 mt-3 card shadow-sm p-3"></div>
+
                     </div>
                 </div>
 

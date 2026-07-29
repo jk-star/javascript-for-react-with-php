@@ -388,7 +388,7 @@ Return True
 1. Start
 1. Students ka array banao.
 1. Array me multiple names store karo.
-1. Array Destructuring ka use karke first, second aur third value alag 
+1. Array Destructuring ka use karke first, second aur third value alag
 1. variables me store karo.
 1. Variables display karo.
 1. End.
@@ -655,16 +655,7 @@ Return True
 1. Products display karo.
 1. End.
 
-**69. Employee Module**
-1. Start
-1. employee.js file banao.
-1. Employee object banao.
-1. Employee object ko Default Export karo.
-1. main.js me Import karo.
-1. Employee details display karo.
-1. End.
-
-**70. Shopping Cart Module**
+**69. Shopping Cart Module**
 1. Start
 1. cart.js file banao.
 1. Add To Cart function banao.

@@ -67,38 +67,73 @@ console.log(PI);
 
 3.14
 
-## Named Export ⭐⭐⭐⭐⭐
-- Ek file me multiple exports ho sakte hain.
+## A. Named Export
+- Isme aap ek file se multiple variables/functions export kar sakte ho.
 
-// math.js
+**calculator.js**
 
+<code><pre>
 export const add = (a, b) => a + b;
 
 export const subtract = (a, b) => a - b;
 
-**Import:**
+export const multiply = (a, b) => a * b;
+</pre></code>
 
-import { add, subtract } from "./math.js";
+**main.js**
+<code><pre>
+import { add, subtract, multiply } from "./calculator.js";
 
 console.log(add(10, 5));
 
 console.log(subtract(10, 5));
+</pre></code>
 
-**Output**
-15
+**Rule**
+- export har function/variable ke saath likh sakte ho.
+- Import karte waqt {} (curly braces) use hote hain.
 
-5
+<cdoe><pre>
+import { add } from "./calculator.js";
+</pre></code>
 
-**Import Alias**
-- Agar naam change karna ho:
+## B. Default Export
+- Isme sirf ek hi default export hota hai.
 
-import { add as sum } from "./math.js";
+**user.js**
+<code><pre>
+const user = {
+    name: "Jyoti",
+    city: "Delhi"
+};
 
-console.log(sum(5, 5));
+export default user;
+</pre></code>
 
-**Output**
+**main.js**
 
-10
+<code><pre>
+import user from "./user.js";
+
+console.log(user.name);
+</pre></code>
+
+**Rule**
+- export default sirf ek baar use kar sakte ho.
+- Import karte waqt {} nahi lagte.
+
+<code><pre>
+import user from "./user.js";
+</pre></code>
+
+**Difference**
+
+| Named Export                               | Default Export                             |
+| ------------------------------------------ | ------------------------------------------ |
+| Multiple exports ho sakte hain             | Sirf ek default export hota hai            |
+| `export` use hota hai                      | `export default` use hota hai              |
+| `{}` ke saath import hota hai              | `{}` ke bina import hota hai               |
+| Naam same hona chahiye (ya alias use karo) | Import karte waqt koi bhi naam de sakte ho |
 
 ## Default Export ⭐⭐⭐⭐⭐
 

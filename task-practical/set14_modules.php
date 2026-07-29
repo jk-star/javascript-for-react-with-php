@@ -37,9 +37,17 @@
                 <!-- Cards -->
                 <div class="card shadow-sm">
                     <div class="card-body">
+                        <h3 class="mb-3">Calculator Module (Named Export)</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="calculator mb-3 mt-3 card shadow-sm p-3"></div>
+
+                        <h3 class="mb-3">User Module (Default Export)</h3>
+                        <b class="text-success text-capitalize">output</b>
+                        <div class="user mb-3 mt-3 card shadow-sm p-3"></div>
+
                         <h3 class="mb-3"></h3>
                         <b class="text-success text-capitalize">output</b>
-                        <div class="mb-3 mt-3 card shadow-sm p-3"></div>
+                        <div class="login mb-3 mt-3 card shadow-sm p-3"></div>
 
                         <h3 class="mb-3"></h3>
                         <b class="text-success text-capitalize">output</b>
@@ -48,7 +56,7 @@
                         <h3 class="mb-3"></h3>
                         <b class="text-success text-capitalize">output</b>
                         <div class="mb-3 mt-3 card shadow-sm p-3"></div>
-
+                        
                         <h3 class="mb-3"></h3>
                         <b class="text-success text-capitalize">output</b>
                         <div class="mb-3 mt-3 card shadow-sm p-3"></div>
@@ -77,7 +85,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

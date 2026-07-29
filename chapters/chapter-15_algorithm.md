@@ -590,3 +590,89 @@ Return True
 1. Nullish Coalescing (??) ka use karke default username set karo.
 1. Username display karo.
 1. End.
+
+## Practice Set 14 – ES6 Modules
+
+**1. Calculator Module (Named Export)**
+
+1. Start
+1. calculator.js file banao.
+1. Add, Subtract, Multiply aur Divide functions banao.
+1. Functions ko Named Export karo.
+1. main.js me functions ko Import karo.
+1. Functions call karke result display karo.
+1. End.
+
+**2. User Module (Default Export)**
+
+1. Start
+1. user.js file banao.
+1. User object banao.
+1. User object ko Default Export karo.
+1. main.js me Default Import karo.
+1. User details display karo.
+1. End.
+
+**3. Authentication Module (Named Export)**
+
+1. Start
+1. auth.js file banao.
+1. Login function banao.
+1. Logout function banao.
+1. CheckUser function banao.
+1. Sabhi functions ko Named Export karo.
+1. main.js me Import karo.
+1. Functions call karo.
+1. Result display karo.
+1. End.
+
+**4. Utility Functions (Named Export)**
+1. Start
+1. utils.js file banao.
+1. Capitalize function banao.
+1. Currency Format function banao.
+1. Date Format function banao.
+1. Sabhi functions ko Named Export karo.
+1. main.js me Import karo.
+1. Functions call karke output display karo.
+1. End.
+
+5. Alias Import
+Algorithm
+Start
+math.js file banao.
+Add aur Multiply functions export karo.
+main.js me Import karte waqt Alias (as) use karo.
+Alias function call karo.
+Result display karo.
+End.
+6. Product Module
+Algorithm
+Start
+products.js file banao.
+Products array banao.
+Products array ko Default Export karo.
+main.js me Import karo.
+Products display karo.
+End.
+7. Employee Module
+Algorithm
+Start
+employee.js file banao.
+Employee object banao.
+Employee object ko Default Export karo.
+main.js me Import karo.
+Employee details display karo.
+End.
+8. Shopping Cart Module
+Algorithm
+Start
+cart.js file banao.
+Add To Cart function banao.
+Remove From Cart function banao.
+Get Cart function banao.
+Functions ko Named Export karo.
+main.js me Import karo.
+Functions call karo.
+Cart details display karo.
+End.

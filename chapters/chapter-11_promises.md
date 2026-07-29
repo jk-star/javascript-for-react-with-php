@@ -1,4 +1,4 @@
-# Chapter 10 – Promises ⭐⭐⭐⭐⭐
+# Chapter 11 – Promises ⭐⭐⭐⭐⭐
 - Promise JavaScript ka ek object hai jo batata hai ki koi asynchronous (time lene wala) task future me complete hoga ya fail hoga. React me API call, database request aur file upload sab Promises par based hote hain.
 
 ## Promise Kya Hai?

@@ -1,4 +1,4 @@
-# Chapter 8 – ES6 Features (Spread, Rest, Optional Chaining, Nullish Coalescing)
+# Chapter 9 – ES6 Features (Spread, Rest, Optional Chaining, Nullish Coalescing)
 
 ## Part 1 – Spread Operator (...) ⭐⭐⭐⭐⭐
 

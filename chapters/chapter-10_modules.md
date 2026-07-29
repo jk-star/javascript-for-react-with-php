@@ -1,10 +1,22 @@
-# Chapter 9 – Modules (import / export)
+# Chapter 10 – Modules (import / export)
 
 - Modules JavaScript code ko chhote-chhote reusable files me divide karne ka tareeka hai. React me almost har component, utility aur function alag module/file me hota hai.
 
 ## Module Kya Hota Hai?
 
 - Agar poora code ek hi file me likh diya jaye, to project ko maintain karna mushkil ho jata hai.
+
+**Example**
+**file 1 : math.js**
+<code><pre>
+export function add(a, b) { return a + b; }
+</pre></code>
+
+**file 2 : main.js**
+<code><pre>
+import { add } from './math.js';
+console.log(add(2, 3)); // 5
+</pre></code>
 
 **Example:**
 <code><pre>

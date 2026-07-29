@@ -1,4 +1,4 @@
-# Chapter 12 – Fetch API ⭐⭐⭐⭐⭐
+# Chapter 13 – Fetch API ⭐⭐⭐⭐⭐
 - Fetch API JavaScript ka built-in API hai jo server se data fetch (GET) karne aur server ko data send (POST, PUT, DELETE) karne ke liye use hota hai. React me backend se data lane ke liye ye sabse common APIs me se ek hai.
 
 ## Fetch API Kya Hai?

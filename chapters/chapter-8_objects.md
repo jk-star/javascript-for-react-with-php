@@ -1,4 +1,4 @@
-# 📖 Chapter 7 – Objects & Destructuring
+# 📖 Chapter 8 – Objects & Destructuring
 
 ## Object Kya Hota Hai?
 

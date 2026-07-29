@@ -1,3 +1,5 @@
+# Chapter 24 Logic Building Questions
+
 # Level 9: Mini Logic Projects (126–140)
 
 ## 126. Calculator

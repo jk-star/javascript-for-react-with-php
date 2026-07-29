@@ -1,4 +1,4 @@
-# Chapter 11 – Async / Await ⭐⭐⭐⭐⭐
+# Chapter 12 – Async / Await ⭐⭐⭐⭐⭐
 - Async/Await Promise ko handle karne ka modern aur readable tarika hai. React me API calls ke liye aajkal ye sabse zyada use hota hai.
 ## Async/Await Kya Hai?
 - Pehle Promise ko is tarah likhte the:

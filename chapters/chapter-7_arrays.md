@@ -1,4 +1,4 @@
-# 📖 Chapter 6 – Arrays
+# 📖 Chapter 7 – Arrays
 
 ## Array Kya Hota Hai?
 

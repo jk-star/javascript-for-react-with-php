@@ -1,8 +1,12 @@
+<?php
+$domain = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME']; 
+$base = $domain."/javascript-for-react";
+?>
 <div class="sidebar p-3">
 
     <h3 class="mb-4">Dashboard</h3>
 
-    <a href="task-dashboard.php">
+    <a href="mini-project-dashboard.php">
         <i class="bi bi-speedometer2 me-2"></i>Dashboard
     </a>
 
@@ -10,7 +14,7 @@
         <i class="bi bi-calculator"></i> Calculator
     </a>
 
-    <a href="set2_data-types.php">
+    <a href="../bmi_calculator/bmi_calculator.php">
         <i class="bi bi-browser-safari"></i> BMI Calculator
     </a>
 

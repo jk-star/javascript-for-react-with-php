@@ -1,0 +1,837 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, .08);
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    background: #56d2b3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 45px;
+    color: #fff;
+}
+
+.title {
+    flex: 1;
+    padding: 0 30px;
+}
+
+.title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #112b63;
+}
+
+.title p {
+    margin-top: 8px;
+    color: #555;
+    font-size: 20px;
+}
+
+.heart {
+    font-size: 55px;
+    color: #ff5b74;
+}
+
+/* ===========================
+   MAIN CARD
+=========================== */
+
+.main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, .06);
+
+    margin-bottom: 30px;
+}
+
+/* ===========================
+   LEFT SIDE
+=========================== */
+
+.left h2 {
+    font-size: 30px;
+    color: #1d2d50;
+}
+
+.line {
+    width: 70px;
+    height: 4px;
+    background: #2f73ff;
+    margin: 15px 0 35px;
+    border-radius: 20px;
+}
+
+/* ===========================
+   INPUT BOX
+=========================== */
+
+.input-box {
+    margin-bottom: 28px;
+}
+
+.input-box label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-bottom: 12px;
+}
+
+.input-box label i {
+    color: #2f73ff;
+    font-size: 22px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 18px 20px;
+
+    border: 2px solid #dfe7f5;
+
+    border-radius: 12px;
+
+    outline: none;
+
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.input-box input:focus {
+
+    border-color: #2f73ff;
+
+    box-shadow:
+        0 0 10px rgba(47, 115, 255, .15);
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+button {
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 18px;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+#calculateBtn {
+
+    background: #2f73ff;
+
+    color: #fff;
+
+    margin-top: 10px;
+
+}
+
+#calculateBtn:hover {
+
+    background: #1b5de8;
+
+    transform: translateY(-3px);
+
+}
+
+#resetBtn {
+
+    margin-top: 20px;
+
+    background: #fff;
+
+    border: 2px solid #2f73ff;
+
+    color: #2f73ff;
+
+}
+
+#resetBtn:hover {
+
+    background: #2f73ff;
+
+    color: #fff;
+
+}
+
+/* ===========================
+   RIGHT SIDE
+=========================== */
+
+.right {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.right img {
+
+    width: 100%;
+
+    max-width: 430px;
+
+    animation: float 3s ease-in-out infinite;
+
+}
+
+/* ===========================
+   FLOAT ANIMATION
+=========================== */
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-12px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/*=========================================
+RESULT CARD
+=========================================*/
+
+.result-card {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+
+    margin-bottom: 35px;
+
+}
+
+.bmi-result,
+.category-result {
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+
+}
+
+.bmi-result h3,
+.category-result h3 {
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+
+    color: #1d2d50;
+
+}
+
+#bmiValue {
+
+    font-size: 75px;
+
+    color: #19a34a;
+
+    font-weight: 700;
+
+}
+
+#category {
+
+    display: inline-block;
+
+    padding: 12px 28px;
+
+    border-radius: 40px;
+
+    background: #ff9800;
+
+    color: #fff;
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    margin: 20px 0;
+
+}
+
+#message {
+
+    font-size: 18px;
+
+    color: #555;
+
+    line-height: 30px;
+
+}
+
+/*=========================================
+    PREMIUM UI EFFECTS
+=========================================*/
+
+/* Smooth Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection */
+
+::selection {
+    background: #2f73ff;
+    color: #fff;
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #edf2ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f73ff;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #195ee6;
+}
+
+/* Glass Effect */
+
+.main-card,
+.result-card,
+.guide,
+.footer {
+
+    backdrop-filter: blur(12px);
+
+    -webkit-backdrop-filter: blur(12px);
+
+}
+
+/* Card Hover */
+
+.main-card:hover,
+.guide:hover,
+.result-card:hover {
+
+    transform: translateY(-4px);
+
+    transition: .35s;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .12);
+
+}
+
+/* Input Placeholder */
+
+input::placeholder {
+
+    color: #999;
+
+}
+
+/* Input Hover */
+
+input:hover {
+
+    border-color: #7aa8ff;
+
+}
+
+/* Button Shadow */
+
+#calculateBtn {
+
+    box-shadow: 0 12px 25px rgba(47, 115, 255, .35);
+
+}
+
+#calculateBtn:hover {
+
+    box-shadow: 0 18px 35px rgba(47, 115, 255, .45);
+
+}
+
+#resetBtn:hover {
+
+    box-shadow: 0 12px 25px rgba(47, 115, 255, .25);
+
+}
+
+/* Icon Animation */
+
+.logo i,
+.heart i {
+
+    transition: .4s;
+
+}
+
+.logo:hover i {
+
+    transform: rotate(360deg);
+
+}
+
+.heart:hover {
+
+    transform: scale(1.1);
+
+}
+
+/* Result Animation */
+
+.result-card {
+
+    animation: fadeUp .8s;
+
+}
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(35px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* Guide Card Animation */
+
+.card {
+
+    animation: zoom .6s ease;
+
+}
+
+@keyframes zoom {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(.8);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
+
+}
+
+/* Footer Hover */
+
+.footer:hover {
+
+    background: #dfeeff;
+
+    transition: .3s;
+
+}
+
+/* Image Hover */
+
+.right img:hover {
+
+    transform: scale(1.03);
+
+    transition: .4s;
+
+}
+
+/*==============================
+BMI GUIDE
+==============================*/
+
+.guide{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    margin-top:40px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+
+}
+
+.guide h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    color:#13295b;
+
+    margin-bottom:35px;
+
+}
+
+/*==============================
+Guide Cards
+==============================*/
+
+.guide-box{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:22px;
+
+}
+
+.guide-card{
+
+    border-radius:18px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    border:2px solid transparent;
+
+    transition:.35s;
+
+}
+
+.guide-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+}
+
+.guide-card i{
+
+    font-size:65px;
+
+    margin-bottom:18px;
+
+}
+
+.guide-card h3{
+
+    font-size:32px;
+
+    color:#1b2d4f;
+
+    margin-bottom:15px;
+
+}
+
+.guide-card p{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+/*==============================
+Colors
+==============================*/
+
+.underweight{
+
+    background:#eef6ff;
+
+    border-color:#cfe2ff;
+
+}
+
+.underweight i,
+.underweight p{
+
+    color:#2d6cff;
+
+}
+
+/* Normal */
+
+.normal{
+
+    background:#effbf2;
+
+    border-color:#d6f2dc;
+
+}
+
+.normal i,
+.normal p{
+
+    color:#2fa84f;
+
+}
+
+/* Overweight */
+
+.overweight{
+
+    background:#fff8ea;
+
+    border-color:#ffe3aa;
+
+}
+
+.overweight i,
+.overweight p{
+
+    color:#ff9800;
+
+}
+
+/* Obese */
+
+.obese{
+
+    background:#fff1f2;
+
+    border-color:#ffd2d6;
+
+}
+
+.obese i,
+.obese p{
+
+    color:#ef4444;
+
+}
+
+/*==============================
+Footer
+==============================*/
+
+.footer-info{
+
+    margin-top:30px;
+
+    background:linear-gradient(90deg,#eef5ff,#d9ebff);
+
+    border-radius:18px;
+
+    padding:22px 28px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.footer-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.info-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:#2f73ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.info-icon i{
+
+    color:#fff;
+
+    font-size:34px;
+
+}
+
+.footer-left h4{
+
+    font-size:24px;
+
+    margin-bottom:8px;
+
+    color:#243b63;
+
+}
+
+.footer-left p{
+
+    font-size:20px;
+
+    color:#4c5f7b;
+
+}
+
+.footer-heart{
+
+    font-size:60px;
+
+    color:#ff5d73;
+
+}
+
+@media(max-width:992px){
+
+.guide-box{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.footer-info{
+
+flex-direction:column;
+
+text-align:center;
+
+gap:20px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.guide-box{
+
+grid-template-columns:1fr;
+
+}
+
+.guide h2{
+
+font-size:28px;
+
+}
+
+.guide-card h3{
+
+font-size:24px;
+
+}
+
+.guide-card p{
+
+font-size:22px;
+
+}
+
+}

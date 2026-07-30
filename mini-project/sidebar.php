@@ -1,53 +1,341 @@
-<?php
-$domain = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME']; 
-$base = $domain."/javascript-for-react";
-?>
-<div class="sidebar p-3">
+<?php include 'header.php'; ?>
 
-    <h3 class="mb-4">Dashboard</h3>
+<link rel="stylesheet" href="./css/mini-project-dashboard.css">
 
-    <a href="mini-project-dashboard.php">
-        <i class="bi bi-speedometer2 me-2"></i>Dashboard
-    </a>
+<body>
 
-    <a href="./calculator/calculator.php">
-        <i class="bi bi-calculator"></i> Calculator
-    </a>
+    <div class="d-flex">
 
-    <a href="../bmi_calculator/bmi_calculator.php">
-        <i class="bi bi-browser-safari"></i> BMI Calculator
-    </a>
+        <!-- Sidebar -->
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-brilliance"></i> Age Calculator
-    </a>
+        <div class="sidebar p-3">
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-phone"></i> Quiz App
-    </a>
+            <h3 class="mb-4">Dashboard</h3>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-cloud-drizzle"></i> Weather App
-    </a>
+            <a href="mini-project-dashboard.php">
+                <i class="bi bi-speedometer2 me-2"></i>Dashboard
+            </a>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-list-task"></i> Todo App
-    </a>
+            <a href="./calculator/calculator.php">
+                <i class="bi bi-calculator"></i> Calculator
+            </a>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-currency-rupee"></i> Expense Tracker
-    </a>
+            <a href="./bmi_calculator/bmi_calculator.php">
+                <i class="bi bi-browser-safari"></i> BMI Calculator
+            </a>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-card-checklist"></i> Notes App
-    </a>
+            <a href="set3_template-literals.php">
+                <i class="bi bi-brilliance"></i> Age Calculator
+            </a>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-cart-check"></i> Shopping Cart
-    </a>
+            <a href="set3_template-literals.php">
+                <i class="bi bi-phone"></i> Quiz App
+            </a>
 
-    <a href="set3_template-literals.php">
-        <i class="bi bi-people"></i> Student Management System
-    </a>
+            <a href="set3_template-literals.php">
+                <i class="bi bi-cloud-drizzle"></i> Weather App
+            </a>
 
-</div>
+            <a href="set3_template-literals.php">
+                <i class="bi bi-list-task"></i> Todo App
+            </a>
+
+            <a href="set3_template-literals.php">
+                <i class="bi bi-currency-rupee"></i> Expense Tracker
+            </a>
+
+            <a href="set3_template-literals.php">
+                <i class="bi bi-card-checklist"></i> Notes App
+            </a>
+
+            <a href="set3_template-literals.php">
+                <i class="bi bi-cart-check"></i> Shopping Cart
+            </a>
+
+            <a href="set3_template-literals.php">
+                <i class="bi bi-people"></i> Student Management System
+            </a>
+
+        </div>
+
+        <!-- Main Content -->
+
+        <div class="main-content">
+
+            <!-- Navbar -->
+
+            <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+                <div class="container-fluid">
+
+                    <h4 class="fw-bold">Admin Dashboard</h4>
+
+                    <div class="ms-auto">
+
+                        <button class="btn btn-primary">
+                            <i class="bi bi-bell"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div class="container-fluid mt-4">
+
+                <!-- Cards -->
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="card stat-card shadow-sm">
+
+                            <div class="card-body d-flex justify-content-between">
+
+                                <div>
+
+                                    <h6>Total Users</h6>
+
+                                    <h2>2,540</h2>
+
+                                </div>
+
+                                <div class="icon-box bg-primary">
+
+                                    <i class="bi bi-people"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="card stat-card shadow-sm">
+
+                            <div class="card-body d-flex justify-content-between">
+
+                                <div>
+
+                                    <h6>Orders</h6>
+
+                                    <h2>1,260</h2>
+
+                                </div>
+
+                                <div class="icon-box bg-success">
+
+                                    <i class="bi bi-cart"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="card stat-card shadow-sm">
+
+                            <div class="card-body d-flex justify-content-between">
+
+                                <div>
+
+                                    <h6>Revenue</h6>
+
+                                    <h2>$12K</h2>
+
+                                </div>
+
+                                <div class="icon-box bg-warning">
+
+                                    <i class="bi bi-currency-dollar"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="card stat-card shadow-sm">
+
+                            <div class="card-body d-flex justify-content-between">
+
+                                <div>
+
+                                    <h6>Products</h6>
+
+                                    <h2>325</h2>
+
+                                </div>
+
+                                <div class="icon-box bg-danger">
+
+                                    <i class="bi bi-box"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Table + Profile -->
+
+                <div class="row mt-4">
+
+                    <div class="col-lg-8">
+
+                        <div class="card shadow-sm">
+
+                            <div class="card-header bg-white">
+
+                                <h5>Recent Orders</h5>
+
+                            </div>
+
+                            <div class="card-body">
+
+                                <table class="table table-hover">
+
+                                    <thead>
+
+                                        <tr>
+
+                                            <th>ID</th>
+
+                                            <th>Customer</th>
+
+                                            <th>Status</th>
+
+                                            <th>Amount</th>
+
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+
+                                            <td>#1001</td>
+
+                                            <td>Rahul</td>
+
+                                            <td><span class="badge bg-success">Completed</span></td>
+
+                                            <td>$150</td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>#1002</td>
+
+                                            <td>Priya</td>
+
+                                            <td><span class="badge bg-warning">Pending</span></td>
+
+                                            <td>$90</td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>#1003</td>
+
+                                            <td>Amit</td>
+
+                                            <td><span class="badge bg-danger">Cancelled</span></td>
+
+                                            <td>$200</td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>#1004</td>
+
+                                            <td>Neha</td>
+
+                                            <td><span class="badge bg-primary">Processing</span></td>
+
+                                            <td>$340</td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Profile -->
+
+                    <div class="col-lg-4">
+
+                        <div class="card shadow-sm profile-card">
+
+                            <div class="card-body text-center">
+
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+
+                                <h4>Jyoti Singh</h4>
+
+                                <p class="text-muted">Frontend Developer</p>
+
+                                <hr>
+
+                                <h6>Project Progress</h6>
+
+                                <div class="progress mb-3">
+
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:75%">
+
+                                        75%
+
+                                    </div>
+
+                                </div>
+
+                                <button class="btn btn-primary w-100">
+
+                                    View Profile
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <?php include "footer.php"; ?>

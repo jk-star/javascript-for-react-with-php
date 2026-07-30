@@ -813,3 +813,47 @@ Return True
 1. try me weather details display karo.
 1. catch me error message display karo.
 1. End.
+
+## Practice Set 17 – Fetch API
+
+**83. User CRUD (GET)**
+1. Start
+1. User API URL lo.
+1. `fetch()` ka use karke GET request bhejo.
+1. Response ko JSON me convert karo.
+1. User data display karo.
+1. Agar error aaye to error message display karo.
+1. End.
+
+**84. Add New User (POST)**
+1. Start
+1. User object banao.
+1. API URL lo.
+1. `fetch()` ka use karke POST request bhejo.
+1. Request body me JSON data bhejo.
+1. Response ko JSON me convert karo.
+1. Success message display karo.
+1. Error aaye to error message display karo.
+1. End.
+
+**85. Update User (PUT)**
+1. Start
+1. User ID lo.
+1. Updated user object banao.
+1. API URL lo.
+1. `fetch()` ka use karke PUT request bhejo.
+1. Updated data ko JSON format me bhejo.
+1. Response ko JSON me convert karo.
+1. Updated user display karo.
+1. Error aaye to error message display karo.
+1. End.
+
+**86. Delete User (DELETE)**
+1. Start
+1. User ID lo.
+1. API URL lo.
+1. `fetch()` ka use karke DELETE request bhejo.
+1. Response receive karo.
+1. Delete success message display karo.
+1. Error aaye to error message display karo.
+1. End.

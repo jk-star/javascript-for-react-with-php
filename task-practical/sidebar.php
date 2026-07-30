@@ -35,5 +35,7 @@
     <a href="set15_promises.php"><i class="bi bi-list-stars me-2"></i>Set15 Promises</a>
     
     <a href="set16_async-await.php"><i class="bi bi-list-stars me-2"></i>Set16 Async Await</a>
+    
+    <a href="set17_fetch-api.php"><i class="bi bi-list-stars me-2"></i>set17 Fetch API</a>
 
 </div>

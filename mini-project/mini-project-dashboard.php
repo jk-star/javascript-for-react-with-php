@@ -1,5 +1,7 @@
 <?php include 'header.php'; ?>
 
+<link rel="stylesheet" href="./css/mini-project-dashboard.css">
+
 <body>
 
     <div class="d-flex">

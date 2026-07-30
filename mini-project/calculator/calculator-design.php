@@ -35,87 +35,87 @@
                         <!-- Row 1 -->
 
                         <div class="col-3">
-                            <button class="btn btn-danger w-100 calc-btn">C</button>
+                            <button class="btn btn-danger w-100 calc-btn" onclick="calcAction('clear')">C</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-danger w-100 calc-btn">DEL</button>
+                            <button class="btn btn-danger w-100 calc-btn" onclick="calcAction('del')">DEL</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-warning w-100 calc-btn">%</button>
+                            <button class="btn btn-warning w-100 calc-btn" onclick="calcOperators('%')">%</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-warning w-100 calc-btn">/</button>
+                            <button class="btn btn-warning w-100 calc-btn" onclick="calcOperators('/')">/</button>
                         </div>
 
                         <!-- Row 2 -->
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">7</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(7)">7</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">8</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(8)">8</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">9</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(9)">9</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-warning w-100 calc-btn">*</button>
+                            <button class="btn btn-warning w-100 calc-btn" onclick="calcOperators('*')">*</button>
                         </div>
 
                         <!-- Row 3 -->
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">4</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(4)">4</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">5</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(5)">5</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">6</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(6)">6</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-warning w-100 calc-btn">-</button>
+                            <button class="btn btn-warning w-100 calc-btn" onclick="calcOperators('-')">-</button>
                         </div>
 
                         <!-- Row 4 -->
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">1</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(1)">1</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">2</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(2)">2</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">3</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(3)">3</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-warning w-100 calc-btn">+</button>
+                            <button class="btn btn-warning w-100 calc-btn" onclick="calcOperators('+')">+</button>
                         </div>
 
                         <!-- Row 5 -->
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">0</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="calcBtn(0)">0</button>
                         </div>
 
                         <div class="col-3">
-                            <button class="btn btn-secondary w-100 calc-btn">.</button>
+                            <button class="btn btn-secondary w-100 calc-btn" onclick="decimalBtn('.')">.</button>
                         </div>
 
                         <div class="col-6">
-                            <button class="btn btn-success w-100 calc-btn">=</button>
+                            <button class="btn btn-success w-100 calc-btn" onclick="finalCalEqual('=')">=</button>
                         </div>
 
                     </div>
@@ -129,3 +129,4 @@
     </div>
 
 </div>
+<script src="./js/script.js">

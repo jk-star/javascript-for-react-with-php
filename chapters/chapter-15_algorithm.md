@@ -669,7 +669,7 @@ Return True
 
 ## Practice Set 15 – Promises
 
-**1. File Download**
+**70. File Download**
 1. Start
 1. Ek Promise banao.
 1. Download process start karo.
@@ -680,7 +680,7 @@ Return True
 1. `.finally()` me "Download Process Completed" display karo.
 1. End.
 
-**2. Login Request**
+**71. Login Request**
 1. Start
 1. Username aur Password lo.
 1. Ek Promise banao.
@@ -692,7 +692,7 @@ Return True
 1. `.finally()` me Login Request Completed display karo.
 1. End.
 
-**3. Payment Success**
+**72. Payment Success**
 1. Start
 1. Payment Amount lo.
 1. Ek Promise banao.
@@ -704,7 +704,7 @@ Return True
 1. `.finally()` me Payment Process Completed display karo.
 1. End.
 
-**4. Food Delivery**
+**74. Food Delivery**
 1. Start
 1. Food Order lo.
 1. Ek Promise banao.
@@ -716,7 +716,7 @@ Return True
 1. `.finally()` me Delivery Process Completed display karo.
 1. End.
 
-**5. Student Result**
+**75. Student Result**
 1. Start
 1. Student Marks lo.
 1. Ek Promise banao.
@@ -728,7 +728,7 @@ Return True
 1. `.finally()` me Result Process Completed display karo.
 1. End.
 
-**6. OTP Verification**
+**76. OTP Verification**
 1. Start
 1. User ka OTP lo.
 1. Ek Promise banao.
@@ -740,7 +740,7 @@ Return True
 1. `.finally()` me Verification Completed display karo.
 1. End.
 
-**7. Email Sending**
+**77. Email Sending**
 1. Start
 1. Email details lo.
 1. Ek Promise banao.
@@ -752,7 +752,7 @@ Return True
 1. `.finally()` me Email Process Completed display karo.
 1. End.
 
-**8. Data Fetching**
+**78. Data Fetching**
 1. Start
 1. API Request bhejo.
 1. Ek Promise banao.
@@ -762,4 +762,54 @@ Return True
 1. `.then()` me Data Display karo.
 1. `.catch()` me Error Message display karo.
 1. `.finally()` me Request Completed display karo.
+1. End.
+
+## Practice Set 16 – Async / Await
+
+**79. User Data Fetch**
+1. Start
+1. Ek Promise banao.
+1. User data fetch karne ki process start karo.
+1. Agar data mil jaye to resolve() karo.
+1. Agar server error aaye to reject() karo.
+1. Ek async function banao.
+1. await se Promise ka response wait karo.
+1. try block me user data display karo.
+1. catch block me error message display karo.
+1. End.
+
+**80. Product Loading**
+1. Start
+1. Ek Promise banao.
+1. Products load karna start karo.
+1. Agar products successfully load ho jaye to resolve() karo.
+1. Agar loading fail ho jaye to reject() karo.
+1. Ek async function banao.
+1. await ka use karke products ka wait karo.
+1. try me products display karo.
+1. catch me loading failed message display karo.
+1. End.
+
+**81. Student Result**
+1. Start
+1. Ek Promise banao.
+1. Student marks check karo.
+1. Agar student pass ho to resolve() karo.
+1. Agar student fail ho to reject() karo.
+1. Ek async function banao.
+1. await ka use karke result ka wait karo.
+1. try me Pass message display karo.
+1. catch me Fail message display karo.
+1. End.
+
+**82. Weather App**
+1. Start
+1. Ek Promise banao.
+1. Weather data fetch karna start karo.
+1. Agar weather data mil jaye to resolve() karo.
+1. Agar server error aaye to reject() karo.
+1. Ek async function banao.
+1. await ka use karke weather response ka wait karo.
+1. try me weather details display karo.
+1. catch me error message display karo.
 1. End.

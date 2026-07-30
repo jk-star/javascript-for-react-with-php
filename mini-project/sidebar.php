@@ -6,7 +6,7 @@
         <i class="bi bi-speedometer2 me-2"></i>Dashboard
     </a>
 
-    <a href="set1_variables.php">
+    <a href="./calculator/calculator.php">
         <i class="bi bi-calculator"></i> Calculator
     </a>
 

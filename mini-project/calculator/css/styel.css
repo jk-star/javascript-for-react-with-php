@@ -1,0 +1,17 @@
+#display{
+    height:70px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.calc-btn{
+    height:60px;
+    font-size:22px;
+    font-weight:600;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.calc-btn:hover{
+    transform:translateY(-3px);
+}

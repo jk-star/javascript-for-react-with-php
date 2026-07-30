@@ -67,6 +67,10 @@
                     </nav>
 
                     <div class="page-tools">
+                        <a href="mini-project/mini-project-dashboard.php" target="_blank" class="btn btn-warning btn-sm"
+                            id="task-dashboard">
+                            Mini Project
+                        </a>
                         <a href="task-practical/task-dashboard.php" target="_blank" class="btn btn-success btn-sm"
                             id="task-dashboard">
                             Task Dashboard
